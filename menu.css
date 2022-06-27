@@ -1,0 +1,281 @@
+body{
+    height: 100vh;
+}
+
+.bg .img1{
+    position: relative;
+    bottom: 650px;
+    filter: brightness(30%);
+}
+
+.navbar{
+    display: inline;
+    position: relative;
+    bottom: 1030px;
+    left: 400px;
+}
+.navbar ul li{
+    width: 600px;
+    height: 50px;
+    display: inline;
+}
+.navbar ul li a{
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+
+}
+.navbar ul li .g{
+   border: red 2px solid;
+   border-radius: 30px;
+   
+   
+}
+.navbar ul li a:hover{
+    color: yellow;
+}
+.navbar ul li img{
+    height: 25px;
+    width: 25px;
+    transition: 0.2s ;
+}
+.navbar ul li img:hover {
+    height: 27px;
+    width: 27px;
+}
+.m{
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    animation: sl2 0.8s;
+}
+@keyframes sl2 {
+    0%{transform: rotateX(180deg);}
+}
+
+.m .me{
+    position: relative;
+    color: white;
+    bottom: 900px;
+    left: 670px;
+    font-size: 4.2rem;
+    animation: sl 1s 3;
+    
+}
+
+@keyframes sl {
+    0%{left: -300px;}
+    100%{left: 670px;}
+}
+
+.m .nu{
+    position: relative;
+    color: white;
+    bottom: 900px;
+    left: 670px;
+    font-size: 4.2rem;
+    animation: sl1 1s 3;
+}
+@keyframes sl1 {
+    0%{left: 1400px;}
+    100%{left: 670px;}
+}
+.bg1{
+    background-color: rgb(203, 224, 233);
+    width: 100vw;
+    height: 1738px;
+    position: relative;
+    bottom: 800px;
+}
+
+
+.cards{
+    position: relative;
+    bottom:2413px;
+    left: 100px;
+   overflow: hidden;
+}
+.cards .card{
+    overflow: hidden;
+    position:sticky;
+}
+.cards img{
+    /* -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s; */
+    transition: 0.8s; 
+}
+.cards img:hover{
+    width: 700px;
+}
+
+
+.cards1{
+    position: relative;
+    left: 775px;
+    bottom: 2888px;
+}
+.cards1 .card{
+    overflow: hidden;
+    position:sticky;
+}
+.cards1 img{
+    /* -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s; */
+    transition: 0.8s; 
+}
+.cards1 img:hover{
+    width: 700px;
+}
+
+
+.cards2{
+    position: relative;
+        bottom:2837px;
+    left: 440px;
+}
+.cards2 .card{
+    overflow: hidden;
+    position:sticky;
+}
+.cards2 img{
+    /* -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s; */
+    transition: 0.8s; 
+}
+.cards2 img:hover{
+    width: 700px;
+}
+
+
+.cards3{
+    position: relative;
+    bottom: 2781px  ;
+    left: 440px;
+}
+
+.cards3 .card{
+    overflow: hidden;
+    position:sticky;
+}
+.cards3 img{
+    /* -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s; */
+    transition: 0.8s; 
+}
+.cards3 img:hover{
+    width: 700px;
+}
+
+.cnt{
+    width: 1600px;
+    height: 200px;
+    background-color: rgb(56, 39, 39);
+    position: relative;
+    bottom: 2660px;
+    color: white;
+}
+.cnt img{
+    position: relative;
+    left: 150px;
+    top: 98px;
+}
+.cnt span{
+    color: white;
+    position: relative;
+    left: 150px;
+    top: 50px;
+    font-family:cursive;
+}
+.cnt p{
+    position: relative;
+    left: 176px;
+    top: 79px;
+    font-size: smaller;
+
+}
+
+.cnt .m{
+    position: relative;
+    left: 150px;
+    top: 84px;
+}
+.cnt .mn{
+    position: relative;
+    top: 59px;
+}
+
+.cnt .o{
+    top: -80px;
+    position: relative;
+    left: 703px
+}
+
+.cnt .time{
+    position: relative;
+    top: -55px;
+    left: 708px;    
+}
+
+.cnt span.ab{
+    position: relative;
+    left: 1182px;
+    top: -139px;
+}
+.cnt p.us{
+    position: relative;
+    top: -117px;
+    left: 1183px;
+}
+.cnt p.ft{
+    background-color: black;
+    color: white;
+    height: 50px;
+    position: relative;
+    left: 0;
+    top: -34px;
+}
+
+.cnt .cp{
+    color: white;
+    position: relative;
+    top: 17px;
+    left: 470px;
+}
+.cnt .fb{
+    position: relative;
+    top: 10px;
+    left: 12px;
+}
+.cnt .fb:hover{
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+}
+.cnt .insta{
+    position: relative;
+    top: 10px;
+    left: 23px;
+}
+.cnt .insta:hover{
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+}
+.cnt .twitter{
+    position: relative;
+    top: 10px;
+    left: 36px;
+}
+.cnt .twitter:hover{
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+}
+
+.cnt .gb{
+    color: skyblue;
+}
+.cnt .gb:hover{
+    text-decoration: none;
+    color: rgb(49, 184, 238);
+}
